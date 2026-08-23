@@ -41,6 +41,10 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 sudo apt update
 sudo apt install ros-humble-desktop -y
+
+The screenshot below shows the installation completing successfully:
+
+![ROS 2 Humble Installation](installation.png)
 ```
 
 ### 5. Running ROS 2
